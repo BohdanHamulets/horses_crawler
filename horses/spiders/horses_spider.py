@@ -57,3 +57,6 @@ class HorsesSpider(scrapy.Spider):
         item['odds'] = odds or [None] * 21
         item['url'] = response.url or [None] * 21
         yield item
+
+
+# hacktoberfest
